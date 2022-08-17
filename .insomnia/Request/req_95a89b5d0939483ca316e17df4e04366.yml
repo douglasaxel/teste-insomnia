@@ -1,0 +1,50 @@
+_id: req_95a89b5d0939483ca316e17df4e04366
+type: Request
+parentId: fld_ce1df637278a41eda1c5aa292a474515
+modified: 1660256916760
+created: 1658361409710
+url: "{{ _.base_url }}/files"
+name: newUserFile
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d30b9adcad064169987fee3ac5daf35d
+      name: file
+      value: "{% file
+        'F:\\\\Imagens\\\\272899314_676364943729408_5426959271721186013_n.jpg'
+        %}"
+      description: ""
+      type: file
+      fileName: F:\Imagens\272899314_676364943729408_5426959271721186013_n.jpg
+parameters:
+  - id: pair_cca201ea9cb742c0ae8b580af49ff0a7
+    name: type
+    value: document
+    description: ""
+  - id: pair_f8d4dc64f3544542a8f4d7853bfcca08
+    name: section
+    value: teste
+    description: ""
+  - id: pair_53192ddb4c1b4af6b2d839b4e001c92a
+    name: storeId
+    value: 447c235c-f640-4afe-89a1-02695fd5f81d
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_db625fd1326045aeac3c26580699a6e2
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1658361409710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

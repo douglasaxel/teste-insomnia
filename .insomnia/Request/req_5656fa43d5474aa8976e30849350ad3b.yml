@@ -1,0 +1,58 @@
+_id: req_5656fa43d5474aa8976e30849350ad3b
+type: Request
+parentId: fld_e04e5b88484044579f0c306859d5131c
+modified: 1660152482465
+created: 1657737904642
+url: "{{ _.base_url }}/user"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "teste 3",
+    	"email": "teste3@email.com",
+    	"phone": "teste3",
+    	"password": "123123",
+    	
+    	"cep": "teste",
+    	"address": "teste",
+    	"numberAddress": "teste",
+    	"complementAddress": "teste",
+    	"neighborhood": "teste",
+    	"city": "teste",
+    	"referencePointAddress": "teste",
+    	
+    	"retailMarketId": "d76e017f-b1a9-4542-a59f-7ac0c685d4c9",
+    	"fantasyName": "teste",
+    	"socialReason": "teste",
+    	"cnpj": "teste3",
+    	"ie": "teste",
+    	"companyPhone1": "teste",
+    	"companyPhone2": "teste",
+    	"companyEmail": "teste",
+    	"nameRespCompany": "teste",
+    	"cpfRespCompany": "teste",
+    	"phoneRespCompany": "teste",
+    	"emailRespCompany": "teste",
+    	"nameRespCompanyParcelize": "teste",
+    	"cpfRespCompanyParcelize": "teste",
+    	"phoneRespCompanyParcelize": "teste",
+    	"emailRespCompanyParcelize": "teste",
+    	"registrationStatus": "teste"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f583656bdc064eabb470973338f95f73
+authentication: {}
+metaSortKey: -1657737904642
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

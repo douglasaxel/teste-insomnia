@@ -1,0 +1,36 @@
+_id: req_6e29a0ef66ec45d09ccab98f2e4449f0
+type: Request
+parentId: fld_73f0d9fa2dd8482a8b63f759e5daee99
+modified: 1660276425290
+created: 1659982600898
+url: "{{ _.base_url }}/admin"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "ademiro",
+    	"email": "ademiro@email.com",
+    	"phone": "ademiro",
+    	"password": "123123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f583656bdc064eabb470973338f95f73
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  prefix: "Bearer "
+metaSortKey: -1659441613928.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_789d25371bdb48e49f5fbd183af3443e
+type: Request
+parentId: fld_793f98593a234f4f9fadbcc65efc1494
+modified: 1660275902980
+created: 1658419022038
+url: "{{ _.base_url }}/offers"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Offer 3",
+    	"description": "Offer 3",
+    	"price": 123,
+    	"storesId": [
+    		"c3a2194e-046d-40fa-a1c5-9bdf675728be"
+    	],
+    	"filesId": [
+    		"d0b16c9d-7c2a-42c8-bea0-c9e198caf9b6"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e9a2238584ff4abcaa0bccef5f80df69
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1658417069646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

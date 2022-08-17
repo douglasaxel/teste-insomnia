@@ -1,0 +1,30 @@
+_id: req_947e6deac4304cc393e3111fa24d8e28
+type: Request
+parentId: fld_4e2c122e77754a7c8dd3b1e78b3a7f44
+modified: 1660599039090
+created: 1660596825799
+url: "{{ _.base_url }}/retail-market"
+name: getAll
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5625042714454ccb880d3c55c57307d2
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  prefix: "Bearer "
+metaSortKey: -1659585877931.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

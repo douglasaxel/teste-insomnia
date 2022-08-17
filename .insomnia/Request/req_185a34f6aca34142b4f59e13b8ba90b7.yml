@@ -1,0 +1,30 @@
+_id: req_185a34f6aca34142b4f59e13b8ba90b7
+type: Request
+parentId: fld_abfb06de28c04176bd9f72dd26327980
+modified: 1660699650782
+created: 1659108768035
+url: "{{ _.base_url }}/salesman/447c235c-f640-4afe-89a1-02695fd5f81d"
+name: getAllByStore
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_db70efb1d02e496f8a1445ebca4a89f5
+    name: orderByStatus
+    value: PENDING
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+metaSortKey: -1659108768035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

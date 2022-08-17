@@ -1,0 +1,30 @@
+_id: req_31d96b3c45464dcbafc22e2f7c01edd9
+type: Request
+parentId: fld_4e2c122e77754a7c8dd3b1e78b3a7f44
+modified: 1660598978783
+created: 1660596836774
+url: "{{ _.base_url }}/retail-market/92886841-e102-47d9-a2ce-b00ffac34ac3"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5625042714454ccb880d3c55c57307d2
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  prefix: "Bearer "
+metaSortKey: -1659585877881.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,71 @@
+_id: req_e25efa7886ca4ed8bb97b2ae622417eb
+type: Request
+parentId: fld_abfb06de28c04176bd9f72dd26327980
+modified: 1660600545187
+created: 1658417069646
+url: "{{ _.base_url }}/salesman"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: salesman
+      id: pair_62bd688e8fdd47699c4d18ee1a01a5d0
+    - id: pair_c258b49c16ea463488c158324aa70656
+      name: email
+      value: salesman@email.com
+      description: ""
+    - id: pair_d4e909a341614d95a46da3aeb46ad9ee
+      name: username
+      value: salesman
+      description: ""
+    - id: pair_f7ac853219dd47de84df5895c13d4eaa
+      name: password
+      value: "123123"
+      description: ""
+    - id: pair_e3c0c3100e0b45eaa6ef42bd58849fc8
+      name: cpf
+      value: salesman
+      description: ""
+    - id: pair_2586e04867cc4258873e6cbe416a15fb
+      name: rg
+      value: salesman
+      description: ""
+    - id: pair_0ad19ae5882c46b396af96b5c995082a
+      name: occupation
+      value: salesman
+      description: ""
+    - id: pair_9fc2d9c33e434af2be52a47fdc222af4
+      name: phone
+      value: salesman
+      description: ""
+    - id: pair_e3c238f263864f678c4c1155d42ff425
+      name: storeId
+      value: 447c235c-f640-4afe-89a1-02695fd5f81d
+      description: ""
+    - id: pair_57c4cdce221d4dfa93c1beb19695f926
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: F:\Imagens\c56190180ed9009cee02707b7f880ea7cdd506c82529f45e88d59381715b161b.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e9a2238584ff4abcaa0bccef5f80df69
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1658417069646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

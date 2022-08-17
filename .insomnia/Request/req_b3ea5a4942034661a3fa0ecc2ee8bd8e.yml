@@ -1,0 +1,31 @@
+_id: req_b3ea5a4942034661a3fa0ecc2ee8bd8e
+type: Request
+parentId: fld_ce1df637278a41eda1c5aa292a474515
+modified: 1659463108932
+created: 1659462690024
+url: "{{ _.base_url }}/files/84309fa8-b13c-4f10-b267-f89be187d8f9"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_e98e2062cbde4562bfa73a18f95a55d1
+    name: authorization
+    value: BearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhOWU3MjNiLWZmOWItNDczNS05YTAwLTI4MGU0MzQ4N2NhYSIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjU3NzQ1NTQ3LCJleHAiOjE2NTc4MzE5NDd9.MzymG0U0g9sNC_2873450VxMZkX-7edsBR-WvfdD6aw
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1658353823520
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

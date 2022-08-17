@@ -1,0 +1,25 @@
+_id: req_87c29c4b483343eba26512ea38ad3d07
+type: Request
+parentId: fld_793f98593a234f4f9fadbcc65efc1494
+modified: 1660276344052
+created: 1660275892717
+url: "{{ _.base_url }}/offers/9ca7f94a-2ffd-4465-b28e-8923c3919634"
+name: getOne
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1658364888456
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

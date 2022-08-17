@@ -1,0 +1,36 @@
+_id: req_cb7441c2a93b499bb78f294b686c0900
+type: Request
+parentId: fld_793f98593a234f4f9fadbcc65efc1494
+modified: 1660257332497
+created: 1660249540334
+url: "{{ _.base_url }}/offers"
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"offerId": "9ca7f94a-2ffd-4465-b28e-8923c3919634",
+    	"title": "Offer 2",
+    	"description": "Offer 2",
+    	"price": 123
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e9a2238584ff4abcaa0bccef5f80df69
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{% response 'body', 'req_4e437b1baa354e82aa000af55ca3ddef',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1658389239678
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
